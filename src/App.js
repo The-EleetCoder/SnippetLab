@@ -3,9 +3,9 @@ import Split from "react-split";
 import Editor from "./components/Editor";
 
 function App() {
-  const [html, setHtml] = useState("");
-  const [css, setCss] = useState("");
-  const [js, setJs] = useState("");
+  const [html, setHtml] = useState(() => localStorage.getItem("SnippetLab-html") || "");
+  const [css, setCss] = useState(() => localStorage.getItem("SnippetLab-css") || "");
+  const [js, setJs] = useState(() => localStorage.getItem("SnippetLab-js") || "");
   const [srcDoc, setSrcDoc] = useState();
 
   useEffect(() => {
@@ -20,6 +20,12 @@ function App() {
     }, 250);
 
     return () => clearTimeout(timeout);
+  }, [html, css, js]);
+
+  useEffect(() => {
+    localStorage.setItem("SnippetLab-html", html);
+    localStorage.setItem("SnippetLab-css", css);
+    localStorage.setItem("SnippetLab-js", js);
   }, [html, css, js]);
 
   return (
