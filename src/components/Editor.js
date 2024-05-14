@@ -2,6 +2,7 @@ import React from "react";
 import CodeMirror from "@uiw/react-codemirror";
 import { javascript } from "@codemirror/lang-javascript";
 import { EditorView } from "@codemirror/view";
+import {sublime} from '@uiw/codemirror-theme-sublime'
 
 const Editor = (props) => {
   const { displayName, value, onChange } = props;
@@ -14,7 +15,7 @@ const Editor = (props) => {
       </div>
       <CodeMirror
         className="codemirror-editor"
-        theme={"dark"}
+        theme={sublime}
         value={value}
         extensions={[
           javascript({ jsx: true }), 
