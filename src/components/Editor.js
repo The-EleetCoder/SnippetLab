@@ -13,15 +13,15 @@ const Editor = (props) => {
         <button>o/c</button>
       </div>
       <CodeMirror
+        className="codemirror-editor"
         theme={"dark"}
         value={value}
-        height="200px"
         extensions={[
           javascript({ jsx: true }), 
           EditorView.lineWrapping
         ]}
+        height="100%"
         onChange={onChange}
-        className="codemirror-editor"
       />
     </div>
   );

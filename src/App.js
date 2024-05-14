@@ -24,7 +24,7 @@ function App() {
 
 
   return (
-    <>
+    <div className="wrapper">
       {/* top section */}
       <div className="pane top-pane">
         <Editor
@@ -55,7 +55,7 @@ function App() {
           height="100%"
         />
       </div>
-    </>
+    </div>
   );
 }
 
