@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">SnippetLab</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="https://socialify.git.ci/The-EleetCoder/SnippetLab/image?language=1&amp;owner=1&amp;name=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
-## Available Scripts
+<p id="description">Welcome to SnippetLab a web-based code editor similar to CodePen. SnippetLab allows you to write edit and preview HTML CSS and JavaScript code in real-time. This README file provides an overview of the project setup instructions and more.</p>
 
-In the project directory, you can run:
+<h2>🚀 Demo</h2>
 
-### `npm start`
+[https://snippet-lab.vercel.app/](https://snippet-lab.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Project Screenshots:</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center"><img src="https://github.com/The-EleetCoder/SnippetLab/blob/main/public/Screenshot-1.png" alt="project-screenshot"></p>
 
-### `npm test`
+  
+  
+<h2>🧐 Features</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Here're some of the project's best features:
 
-### `npm run build`
+*   Real-time Code Preview: Instantly see the results of your HTML CSS and JavaScript code.
+*   Persistent Code Storage: Your code is automatically saved in the local storage of your browser.
+*   CodeMirror Integration: Enhanced code editing experience with syntax highlighting and themes.
+*   Responsive Layout: A flexible and user-friendly interface with split panels for editing and previewing.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>🛠️ Installation Steps:</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p>1. Clone the Repository</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/The-EleetCoder/SnippetLab.git
+```
 
-### `npm run eject`
+<p>2. Go to Project Directory</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+cd SnippetLab
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>3. Install Dependencies</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p>4. Start the Development Server</p>
 
-## Learn More
+```
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>5. Open your browser and navigate to http://localhost:3000 to see SnippetLab in action.</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
+  
+<h2>💻 Built with</h2>
 
-### Code Splitting
+Technologies used in the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*   React.JS
+*   Javascript
 
-### Analyzing the Bundle Size
+<h2>Open Source</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! Please fork the repository and create a pull request with your changes. For major changes open an issue to discuss what you would like to change.
