@@ -5,11 +5,14 @@ import { EditorView } from "@codemirror/view";
 import { sublime } from "@uiw/codemirror-theme-sublime";
 
 const Editor = (props) => {
-  const { displayName, value, onChange } = props;
+  const { displayName, value, onChange, icon } = props;
 
   return (
     <div className="editor-container">
-      <div className="editor-title">{displayName}</div>
+      <div className="editor-title">
+        <i class={`fa-brands fa-${icon}`}/>
+        {displayName}
+      </div>
       <CodeMirror
         className="codemirror-editor"
         theme={sublime}

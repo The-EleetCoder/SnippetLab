@@ -34,13 +34,13 @@ function App() {
         {/* top half */}
         <Split sizes={[33, 33, 34]} className="split-horizontal top-pane">
           <div className="pane">
-            <Editor displayName="HTML" value={html} onChange={setHtml} />
+            <Editor displayName="HTML" value={html} onChange={setHtml} icon="html5" />
           </div>
           <div className="pane">
-            <Editor displayName="CSS" value={css} onChange={setCss} />
+            <Editor displayName="CSS" value={css} onChange={setCss} icon="css3-alt" />
           </div>
           <div className="pane">
-            <Editor displayName="JS" value={js} onChange={setJs} />
+            <Editor displayName="JS" value={js} onChange={setJs} icon="square-js" />
           </div>
         </Split>
 
@@ -53,7 +53,8 @@ function App() {
             sandbox="allow-scripts"
             width="100%"
             height="100%"
-          />
+          >
+          </iframe>
         </div>
       </Split>
     </div>
